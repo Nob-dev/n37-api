@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build":"npm run build",
+    "build":"react-scripts build",
+    "test":"react-scripts test",
+    "eject":"react-scripts eject",
     "dev": "nodemon app.js"
   },
   "repository": {
