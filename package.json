@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build":" CI= npm run build",
+    "build":"npm run build",
     "dev": "nodemon app.js"
   },
   "repository": {
