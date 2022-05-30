@@ -8,7 +8,7 @@ const postRouter = require("./routers/post")
 const cors = require("cors");
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "https://n37-admin.herokuapp.com/" }));
+app.use(cors({ origin: "https://n37-admin.herokuapp.com" }));
 //app.use(morgan("dev"));
 app.use('/api/post', postRouter);
 
